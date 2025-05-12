@@ -5,8 +5,8 @@ import { Vehicle } from "@/types/vehicle";
 import MapComponent from "./MapComponent";
 import VehicleDetailsModal from "./VehicleDetailsModal"; 
 import { useInView } from "react-intersection-observer";
+const GOOGLE_MAPS_API_KEY = process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY!;
 
-const GOOGLE_MAPS_API_KEY = "AIzaSyD1j0HFT57vXWso34ZBaqC7_Uct1nR0Y3c";
 
 interface LocationVehicle {
   id: string;
